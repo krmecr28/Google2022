@@ -1,0 +1,68 @@
+a.gb_A > svg {
+    width: 23px;
+    padding: 5px;
+    margin: 7px 7px;
+    cursor: pointer;
+}
+
+a.gb_A > svg:hover {
+    opacity: .8;
+
+}
+
+header {
+    float: right;
+    margin-top: -280px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.87);
+    cursor: pointer;
+    padding: 5px 6.7px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: .85;
+
+}
+
+section {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.image {
+    margin-left: 50px;
+}
+
+footer{
+    margin: 349px -7px -7px -7px;
+}
+
+.blue {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.blue:hover {
+    text-decoration: none;
+}
